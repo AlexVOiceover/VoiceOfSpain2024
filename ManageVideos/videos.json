@@ -20,8 +20,27 @@
 		"src": "./videos/Sentinat_C.mp4"
 	},
 	{
-			"title": "COMMERCIAL",
-			"src": "./videos/Callaway_C.mp4"
+		"title": "COMMERCIAL",
+		"src": "./videos/Callaway_C.mp4"
+	},
+	{
+		"title": "MOVIE BREATH",
+		"src": "./videos/Breath_C.mp4"
+	},
+	{
+		"title": "CORPORATE",
+		"src": "./videos/Cono_Sur.mp4"
+	},
+	{
+		"title": "COMMERCIAL",
+		"src": "./videos/Vodafone.mp4"
+	},
+	{
+		"title": "FORD",
+		"src": "./videos/Ford.mp4"
+	},
+	{
+		"title": "VIDEOGAME",
+		"src": "./videos/NewWorld.mp4"
 	}
-
 ]
