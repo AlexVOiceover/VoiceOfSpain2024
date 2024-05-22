@@ -1,0 +1,30 @@
+[
+	{
+		"title": "REEL",
+		"src": "./audios/reel.mp3"
+	},
+	{
+		"title": "CORPORATE",
+		"src": "./audios/corporate.mp3"
+	},
+	{
+		"title": "ELEARNING",
+		"src": "./audios/elearning.mp3"
+	},
+	{
+		"title": "RADIO SPOT",
+		"src": "./audios/radioSpot.mp3"
+	},
+	{
+		"title": "COMMERCIAL",
+		"src": "./audios/commercial.mp3"
+	},
+	{
+		"title": "GAME",
+		"src": "./audios/game.mp3"
+	},
+	{
+		"title": "IVR",
+		"src": "./audios/IVR.mp3"
+	}
+]

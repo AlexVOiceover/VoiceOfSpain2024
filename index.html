@@ -68,7 +68,7 @@
 					<!-- Navigation Links -->
 					<a href="#samples">Samples</a>
 					<a href="#clients">Clients</a>
-					<a href="#studio">Equipment</a>
+					<a href="#studio">My Studio</a>
 					<a href="#contact">Contact</a>
 				</div>
 				<div class="logo">
@@ -103,59 +103,10 @@
 		</section>
 
 		<!-- Voice Samples Section -->
+
 		<section id="samples" class="bottomPadded">
 			<h2>VOICE SAMPLES</h2>
-			<div class="samplesBox">
-				<div class="sample">
-					<h3>REEL</h3>
-					<audio controls>
-						<source src="./audios/reel.mp3" type="audio/mpeg" />
-						Your browser does not support the audio element.
-					</audio>
-				</div>
-				<div class="sample">
-					<h3>CORPORATE</h3>
-					<audio controls>
-						<source src="./audios/corporate.mp3" type="audio/mpeg" />
-						Your browser does not support the audio element.
-					</audio>
-				</div>
-				<div class="sample">
-					<h3>ELEARNING</h3>
-					<audio controls>
-						<source src="./audios/elearning.mp3" type="audio/mpeg" />
-						Your browser does not support the audio element.
-					</audio>
-				</div>
-				<div class="sample">
-					<h3>RADIO SPOT</h3>
-					<audio controls>
-						<source src="./audios/radioSpot.mp3" type="audio/mpeg" />
-						Your browser does not support the audio element.
-					</audio>
-				</div>
-				<div class="sample">
-					<h3>COMMERCIAL</h3>
-					<audio controls>
-						<source src="./audios/commercial.mp3" type="audio/mpeg" />
-						Your browser does not support the audio element.
-					</audio>
-				</div>
-				<div class="sample">
-					<h3>GAME</h3>
-					<audio controls>
-						<source src="./audios/game.mp3" type="audio/mpeg" />
-						Your browser does not support the audio element.
-					</audio>
-				</div>
-				<div class="sample">
-					<h3>IVR</h3>
-					<audio controls>
-						<source src="./audios/IVR.mp3" type="audio/mpeg" />
-						Your browser does not support the audio element.
-					</audio>
-				</div>
-			</div>
+			<div class="samplesBox" id="audioContainer"></div>
 		</section>
 
 		<section>
@@ -167,15 +118,13 @@
 
 		<!-- Video Samples Section -->
 
-		<div class="samplesBox">
-			<section id="video" class="bottomPadded">
-				<h2>VIDEOS</h2>
-				<div class="samplesBox" id="videoContainer"></div>
-			</section>
-		</div>
+		<section id="video" class="bottomPadded">
+			<h2>VIDEOS</h2>
+			<div class="samplesBox" id="videoContainer"></div>
+		</section>
 
 		<section>
-			<article class="extraText">"Browse my video collection."</article>
+			<article class="extraText">"Browse my video collection: Commercials, Movies, AAA Games..."</article>
 		</section>
 
 		<!-- Clients Section -->
@@ -876,7 +825,7 @@
 					<div class="studio-cell textItem">
 						<h3>CAPTURE</h3>
 						<p>Neumann U103</p>
-						<p>RME Babyface</p>
+						<p>RME Interface</p>
 					</div>
 					<div class="studio-cell imageItem">
 						<img src="./images/studio/Micros.jpg" alt="Capture Equipment" />
@@ -889,16 +838,13 @@
 					<div class="studio-cell textItem">
 						<h3>SOFTWARE</h3>
 						<p>Logic Pro</p>
-						<p>XX</p>
-						<p>XX</p>
+						<p>Amadeus</p>
 					</div>
 				</div>
 				<div class="studio-row">
 					<div class="studio-cell textItem">
 						<h3>ACOUSTICS</h3>
 						<p>Studiobricks Booth</p>
-						<p>Control room's by</p>
-						<p>EQ acoustics</p>
 					</div>
 					<div class="studio-cell imageItem">
 						<img src="./images/studio/Booth.jpg" alt="Acoustic treatment" />
@@ -913,7 +859,7 @@
 					</div>
 					<div class="studio-cell textItem">
 						<h3>Remote recording</h3>
-						<p>Source Connect Certified</p>
+						<p>Source Connect</p>
 						<p>CleanFeed</p>
 						<p>Zoom / Skype / Teams...</p>
 					</div>
@@ -991,5 +937,6 @@
 
 		<script src="./swiper-initialization.js"></script>
 		<script src="./ManageVideos/loadVideos.js"></script>
+		<script src="./ManageAudios/loadAudios.js"></script>
 	</body>
 </html>
