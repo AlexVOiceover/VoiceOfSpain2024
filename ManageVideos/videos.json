@@ -1,0 +1,27 @@
+[
+	{
+		"title": "DISCOVERY",
+		"src": "./videos/Discovery_Promo.mp4"
+	},
+	{
+		"title": "TOSHIBA",
+		"src": "./videos/Toshiba_KIRA.mp4"
+	},
+	{
+		"title": "TOY STORY 3",
+		"src": "./videos/Toy_Story_3_Comp.mp4"
+	},
+	{
+		"title": "DOCUMENTARY",
+		"src": "./videos/Documentary_Comp.mp4"
+	},
+	{
+		"title": "EXPLAINER",
+		"src": "./videos/Sentinat_C.mp4"
+	},
+	{
+			"title": "COMMERCIAL",
+			"src": "./videos/Callaway_C.mp4"
+	}
+
+]
