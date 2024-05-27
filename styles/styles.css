@@ -356,7 +356,7 @@ audio {
 
 .formAndText {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	margin-left: auto; /* Auto margin on left */
 	margin-right: auto; /* Auto margin on right */
 	align-items: center; /* Center children horizontally */
@@ -367,23 +367,7 @@ audio {
 	gap: 4vw;
 }
 
-.form-table {
-	flex: 1;
-	display: flex;
-	flex-direction: column;
-	padding-top: 0;
-	align-items: center; /* Center children horizontally */
-	justify-content: center; /* Center children vertically if there is height to distribute */
-	text-align: center; /* Center text within children */
-	gap: 2rem;
-	min-width: 15rem;
-}
 
-.form-line {
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-}
 
 .formText {
 	flex: 1.5;
@@ -417,6 +401,28 @@ label {
 	text-overflow: ellipsis;
 	display: inline-block; /* Make label inline-block to respect width */
 	max-width: 100%;
+}
+
+#email-container a {
+    background-color: var(--text-color);
+    color: #2a2a2a; /* Set the text color to a dark shade for contrast */
+    border: none; /* Remove the default border */
+    padding: 10px 20px; /* Add some padding to increase the size */
+    font-size: 1rem; /* Set the font size */
+    font-weight: bold; /* Make the text bold */
+    border-radius: 5px; /* Round the corners of the button */
+    cursor: pointer; /* Change the cursor to a pointer to indicate it's clickable */
+    transition: background-color 0.3s ease; /* Smooth transition for the background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+    text-transform: uppercase; /* Optional: transform text to uppercase */
+    letter-spacing: 1px; /* Optional: increase letter spacing for better readability */
+    text-decoration: none; /* Remove underline from the link */
+    display: inline-block; /* Allow padding and margin */
+    margin-top: 10px; /* Space above the button */
+}
+
+#email-container a:hover {
+    background-color: #a51f62; /* Change the background color on hover */
 }
 
 input,
