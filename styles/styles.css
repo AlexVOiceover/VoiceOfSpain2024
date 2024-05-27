@@ -1,7 +1,7 @@
 :root {
 	--text-color: #ebebeb; /* Define a text color variable */
 	--red: #a71414;
-	--header-image: url('../images/backgrounds/background_header.jpeg'); 
+	--header-image: url('../images/backgrounds/background_header.jpeg');
 	--samples-image: url('../images/backgrounds/background_samples.jpeg');
 	--video-image: url('../images/backgrounds/background_videos.jpeg');
 	--clients-image: url('../images/backgrounds/background_clients.jpeg');
@@ -367,8 +367,6 @@ audio {
 	gap: 4vw;
 }
 
-
-
 .formText {
 	flex: 1.5;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for some depth */
@@ -403,26 +401,48 @@ label {
 	max-width: 100%;
 }
 
-#email-container a {
+/* #email-container a {
     background-color: var(--text-color);
-    color: #2a2a2a; /* Set the text color to a dark shade for contrast */
-    border: none; /* Remove the default border */
-    padding: 10px 20px; /* Add some padding to increase the size */
-    font-size: 1rem; /* Set the font size */
-    font-weight: bold; /* Make the text bold */
-    border-radius: 5px; /* Round the corners of the button */
-    cursor: pointer; /* Change the cursor to a pointer to indicate it's clickable */
-    transition: background-color 0.3s ease; /* Smooth transition for the background color */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
-    text-transform: uppercase; /* Optional: transform text to uppercase */
-    letter-spacing: 1px; /* Optional: increase letter spacing for better readability */
-    text-decoration: none; /* Remove underline from the link */
-    display: inline-block; /* Allow padding and margin */
-    margin-top: 10px; /* Space above the button */
+    color: #2a2a2a; 
+    border: none; 
+    padding: 10px 20px;
+    font-size: 1rem; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 #email-container a:hover {
-    background-color: #a51f62; /* Change the background color on hover */
+    background-color: #a51f62;
+} */
+
+
+.email-link  {
+	background-color: var(--text-color);
+	text-align: center;
+	margin-top: 20px;
+	color: #2a2a2a; /* Set the text color to a dark shade for contrast */
+	padding: 10px 20px; /* Add some padding to increase the size */
+	font-size: 1rem; /* Set the font size */
+	font-weight: bold; /* Make the text bold */
+	border-radius: 5px; /* Round the corners of the button */
+	display: inline-block; /* Allow padding and margin */
+	text-transform: uppercase; /* Optional: transform text to uppercase */
+	letter-spacing: 1px; /* Optional: increase letter spacing for better readability */
+	text-decoration: none; /* Remove underline from the link */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+	transition: background-color 0.3s ease; /* Smooth transition for the background color */
+}
+
+.email-link:hover {
+    background-color: #a51f62;
 }
 
 input,
@@ -547,7 +567,6 @@ a {
 		font-size: x-large;
 		font-weight: 300;
 	}
-
 
 	.sample h3 {
 		font-size: medium;
