@@ -186,6 +186,7 @@ nav {
 		minmax(15rem, 1fr)
 	); /* Creates as many columns as can fit, each at least 200px wide */
 	justify-items: center; /* Center items horizontally */
+	justify-content: center; /* Add this line to center the grid content */
 	align-items: center; /* Center items vertically */
 	gap: 2rem;
 	max-width: 60rem;

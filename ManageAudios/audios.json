@@ -26,5 +26,13 @@
 	{
 		"title": "IVR",
 		"src": "./audios/IVR.mp3"
+	},
+	{
+		"title": "AUDIOBOOK",
+		"src": "./audios/Audiobook.mp3"
+	},
+	{
+		"title": "LATIN SPANISH",
+		"src": "./audios/Latin Spanish.mp3"
 	}
 ]

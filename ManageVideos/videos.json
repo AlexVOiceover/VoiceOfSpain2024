@@ -38,5 +38,14 @@
 	{
 		"title": "VIDEOGAME",
 		"src": "./videos/NewWorld.mp4"
+	},
+	{
+		"title": "SHOWREEL",
+		"src": "./videos/Showreel.mp4"
+	},
+	
+	{
+		"title": "TV PROMO",
+		"src": "./videos/TV PROMO.mp4"
 	}
 ]
