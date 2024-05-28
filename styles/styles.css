@@ -1,12 +1,12 @@
 :root {
 	--text-color: #ebebeb; /* Define a text color variable */
 	--red: #a71414;
-	--header-image: url('../images/backgrounds/background_header.jpeg');
-	--samples-image: url('../images/backgrounds/background_samples.jpeg');
-	--video-image: url('../images/backgrounds/background_videos.jpeg');
-	--clients-image: url('../images/backgrounds/background_clients.jpeg');
-	--studio-image: url('../images/backgrounds/background_studio.jpeg');
-	--contact-image: url('../images/backgrounds/background_contact.jpeg');
+	--header-image: url('../images/backgrounds/02/header.jpeg');
+	--samples-image: url('../images/backgrounds/02/samples.jpeg');
+	--video-image: url('../images/backgrounds/02/videos.jpeg');
+	--clients-image: url('../images/backgrounds/02/clients.jpeg');
+	--studio-image: url('../images/backgrounds/02/studio.jpeg');
+	--contact-image: url('../images/backgrounds/02/contact.jpeg');
 
 	--background-size: 800px;
 }
@@ -86,11 +86,12 @@ header {
 .face-image {
 	flex: 1;
 	max-width: 25rem; /* Adjust width as needed */
-	min-width: 12.5rem;
-	object-fit: cover; /* Preserve aspect ratio without cropping */
+	min-width: 16.5rem;
+	object-fit:contain; /* Preserve aspect ratio without cropping */
 	height: auto; /* Maintain aspect ratio */
 	padding-right: 2vw;
 	filter: drop-shadow(3px -3px 6px rgba(0, 0, 0, 0.8)); /* Example shadow */
+	align-self: baseline;
 }
 
 nav {
@@ -143,7 +144,7 @@ nav {
 	); /* Semi-transparent black background behind the text */
 	text-shadow: 3px 3px 5px #000000;
 	margin-bottom: 1rem;
-	min-width: 10rem;
+	min-width: 12.5rem;
 }
 
 .logo {
