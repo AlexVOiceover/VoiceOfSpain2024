@@ -77,8 +77,9 @@ header {
 
 .branding {
 	display: flex;
+	flex-direction: row;
 	justify-content: space-between; /* Align the face image to the right */
-	flex-wrap: wrap-reverse;
+	/* flex-wrap: wrap-reverse; */
 	width: 100%; /* Take up the remaining space */
 	z-index: 2;
 }
@@ -87,11 +88,11 @@ header {
 	flex: 1;
 	max-width: 25rem; /* Adjust width as needed */
 	min-width: 16.5rem;
-	object-fit:contain; /* Preserve aspect ratio without cropping */
+	object-fit: contain; /* Preserve aspect ratio without cropping */
 	height: auto; /* Maintain aspect ratio */
 	padding-right: 2vw;
 	filter: drop-shadow(3px -3px 6px rgba(0, 0, 0, 0.8)); /* Example shadow */
-	align-self: baseline;
+	align-self: last baseline;
 }
 
 nav {
@@ -244,8 +245,8 @@ audio {
 	background-size: var(--background-size);
 	background-repeat: repeat;
 	animation: slideBackground 200s linear infinite; /* Adjust time as needed */
-	padding-left: 5vw;
-	padding-right: 5vw;
+	/* padding-left: 5vw;
+	padding-right: 5vw; */
 	padding-bottom: 5vw;
 }
 
@@ -260,9 +261,11 @@ audio {
 
 /* This will style the Swiper container */
 .swiper {
-	padding-left: 10vw;
-	padding-right: 5vw;
+	/* padding-left: 10vw;
+	padding-right: 5vw; */
 	height: clamp(30rem, 65vw, 70rem);
+	margin-left: 1.5rem !important;
+	margin-right: 1.5rem !important;
 }
 
 /* This will style each individual slide within Swiper */
@@ -425,8 +428,7 @@ label {
     background-color: #a51f62;
 } */
 
-
-.email-link  {
+.email-link {
 	background-color: var(--text-color);
 	text-align: center;
 	margin-top: 20px;
@@ -444,7 +446,7 @@ label {
 }
 
 .email-link:hover {
-    background-color: #a51f62;
+	background-color: #a51f62;
 }
 
 input,
@@ -519,7 +521,9 @@ article {
 }
 
 body {
-	margin: 0em;
+	margin: 0 auto;
+	max-width: 120rem;
+	background-color: #000000;
 }
 
 section {
