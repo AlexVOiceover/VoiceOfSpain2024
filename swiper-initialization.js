@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded", () => {
+	console.log("DOM fully loaded and parsed");
+
 // In your swiper-initialization.js file
 var swiper = new Swiper('.swiper', {
 	loop: true,
@@ -62,3 +65,7 @@ var swiper = new Swiper('.swiper', {
 		},
 	},
 })
+
+console.log("Swiper initialized.");
+document.dispatchEvent(new Event('swiperInitialized'));
+});

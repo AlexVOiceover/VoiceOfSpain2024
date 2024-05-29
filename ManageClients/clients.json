@@ -1,0 +1,335 @@
+[
+    {
+      "src": "./images/clients/Real_Madrid.png",
+      "alt": "Real Madrid"
+    },
+    {
+      "src": "./images/clients/3M.png",
+      "alt": "3M"
+    },
+    {
+      "src": "./images/clients/Reebok.png",
+      "alt": "Reebok"
+    },
+    {
+      "src": "./images/clients/Amazon.png",
+      "alt": "Amazon"
+    },
+    {
+      "src": "./images/clients/ASICS.png",
+      "alt": "ASICS"
+    },
+    {
+      "src": "./images/clients/Danone.png",
+      "alt": "Danone"
+    },
+    {
+      "src": "./images/clients/BBC.png",
+      "alt": "BBC"
+    },
+    {
+      "src": "./images/clients/Bosch.png",
+      "alt": "Bosch"
+    },
+    {
+      "src": "./images/clients/Disney-Junior.png",
+      "alt": "Disney Junior"
+    },
+    {
+      "src": "./images/clients/HM.png",
+      "alt": "H&M"
+    },
+    {
+      "src": "./images/clients/Huawei.png",
+      "alt": "Huawei"
+    },
+    {
+      "src": "./images/clients/Lilly.png",
+      "alt": "Lilly"
+    },
+    {
+      "src": "./images/clients/Nivea.png",
+      "alt": "Nivea"
+    },
+    {
+      "src": "./images/clients/microsoft.png",
+      "alt": "Microsoft"
+    },
+    {
+      "src": "./images/clients/Nestea.png",
+      "alt": "Nestea"
+    },
+    {
+      "src": "./images/clients/Netflix.png",
+      "alt": "Netflix"
+    },
+    {
+      "src": "./images/clients/Calvin.png",
+      "alt": "Calvin Klein"
+    },
+    {
+      "src": "./images/clients/Pandora.jpg",
+      "alt": "Pandora"
+    },
+    {
+      "src": "./images/clients/LEGO.png",
+      "alt": "LEGO"
+    },
+    {
+      "src": "./images/clients/Amex.png",
+      "alt": "American Express"
+    },
+    {
+      "src": "./images/clients/Shiseido.png",
+      "alt": "Shiseido"
+    },
+    {
+      "src": "./images/clients/Spotify.png",
+      "alt": "Spotify"
+    },
+    {
+      "src": "./images/clients/Sony.png",
+      "alt": "Sony"
+    },
+    {
+      "src": "./images/clients/Acronis.png",
+      "alt": "Acronis"
+    },
+    {
+      "src": "./images/clients/AlcatelTrans.png",
+      "alt": "Alcatel"
+    },
+    {
+      "src": "./images/clients/AlvalleTrans.png",
+      "alt": "Alvalle"
+    },
+    {
+      "src": "./images/clients/Amnesty-international.jpg",
+      "alt": "Amnesty-international"
+    },
+    {
+      "src": "./images/clients/Appsy.png",
+      "alt": "Appsy"
+    },
+    {
+      "src": "./images/clients/AudiTrans.png",
+      "alt": "Audi"
+    },
+    {
+      "src": "./images/clients/BMWTrans.png",
+      "alt": "BMW"
+    },
+    {
+      "src": "./images/clients/BNPParibasTrans.png",
+      "alt": "BNP Paribas"
+    },
+    {
+      "src": "./images/clients/BPTrans.png",
+      "alt": "BP"
+    },
+    {
+      "src": "./images/clients/BabbelTrans.png",
+      "alt": "Babbel"
+    },
+    {
+      "src": "./images/clients/BayerTrans.png",
+      "alt": "Bayer"
+    },
+    {
+      "src": "./images/clients/BlizzardTrans.png",
+      "alt": "Blizzard"
+    },
+    {
+      "src": "./images/clients/DHL.png",
+      "alt": "DHL"
+    },
+    {
+      "src": "./images/clients/DeLaRueTrans.png",
+      "alt": "DeLaRue"
+    },
+    {
+      "src": "./images/clients/DreamworksTransLight.png",
+      "alt": "Dreamworks"
+    },
+    {
+      "src": "./images/clients/DunlopTrans.png",
+      "alt": "Dunlop"
+    },
+    {
+      "src": "./images/clients/EATrans.png",
+      "alt": "EA"
+    },
+    {
+      "src": "./images/clients/EmiratesTrans.png",
+      "alt": "Emirates"
+    },
+    {
+      "src": "./images/clients/FedexTrans.png",
+      "alt": "Fedex"
+    },
+    {
+      "src": "./images/clients/FifaTrans.png",
+      "alt": "Fifa"
+    },
+    {
+      "src": "./images/clients/GoogleHomeTrans.png",
+      "alt": "Google Home"
+    },
+    {
+      "src": "./images/clients/HPTrans.png",
+      "alt": "HP"
+    },
+    {
+      "src": "./images/clients/HenkelTrans.png",
+      "alt": "Henkel"
+    },
+    {
+      "src": "./images/clients/Hettich.jpg",
+      "alt": "Hettich"
+    },
+    {
+      "src": "./images/clients/Honda.jpg",
+      "alt": "Honda"
+    },
+    {
+      "src": "./images/clients/IBMTrans.png",
+      "alt": "IBM"
+    },
+    {
+      "src": "./images/clients/InnovationGroup.png",
+      "alt": "Innovation Group"
+    },
+    {
+      "src": "./images/clients/JaguarTrans.png",
+      "alt": "Jaguar"
+    },
+    {
+      "src": "./images/clients/KikkomanTrans.png",
+      "alt": "Kikkoman"
+    },
+    {
+      "src": "./images/clients/LandRoverTrans.png",
+      "alt": "LandRover"
+    },
+    {
+      "src": "./images/clients/Lexar.png",
+      "alt": "Lexar"
+    },
+    {
+      "src": "./images/clients/MANTrans.png",
+      "alt": "MAN"
+    },
+    {
+      "src": "./images/clients/MTVTrans.png",
+      "alt": "MTV"
+    },
+    {
+      "src": "./images/clients/Marvel.png",
+      "alt": "Marvel"
+    },
+    {
+      "src": "./images/clients/MorganStanleyTrans.png",
+      "alt": "Morgan Stanley"
+    },
+    {
+      "src": "./images/clients/NCTL.png",
+      "alt": "NCTL"
+    },
+    {
+      "src": "./images/clients/NestTrans.png",
+      "alt": "Nest"
+    },
+    {
+      "src": "./images/clients/NickelodeonTrans.png",
+      "alt": "Nickelodeon"
+    },
+    {
+      "src": "./images/clients/OUPTrans.png",
+      "alt": "OUP"
+    },
+    {
+      "src": "./images/clients/OpenRoad2.png",
+      "alt": "Open Road"
+    },
+    {
+      "src": "./images/clients/PatekPhilippeTrans2.png",
+      "alt": "Patek Philippe"
+    },
+    {
+      "src": "./images/clients/PepsiMaxTrans.png",
+      "alt": "Pepsi Max"
+    },
+    {
+      "src": "./images/clients/PlantronicsTrans.png",
+      "alt": "Plantronics"
+    },
+    {
+      "src": "./images/clients/Radio.png",
+      "alt": "Radio"
+    },
+    {
+      "src": "./images/clients/RichmondSummer.png",
+      "alt": "Richmond Summer"
+    },
+    {
+      "src": "./images/clients/SiemensTrans.png",
+      "alt": "Siemens"
+    },
+    {
+      "src": "./images/clients/SkechersTrans.png",
+      "alt": "Skechers"
+    },
+    {
+      "src": "./images/clients/Teads.png",
+      "alt": "Teads"
+    },
+    {
+      "src": "./images/clients/WBgamesTrans.png",
+      "alt": "WB games"
+    },
+    {
+      "src": "./images/clients/WOWTrans.png",
+      "alt": "WOW"
+    },
+    {
+      "src": "./images/clients/Wolf.png",
+      "alt": "Wolf"
+    },
+    {
+      "src": "./images/clients/XBOXTrans.png",
+      "alt": "XBOX"
+    },
+    {
+      "src": "./images/clients/basf.png",
+      "alt": "BASF"
+    },
+    {
+      "src": "./images/clients/genesiscareTrans.png",
+      "alt": "Genesis Care"
+    },
+    {
+      "src": "./images/clients/imp.png",
+      "alt": "International Medical Press"
+    },
+    {
+      "src": "./images/clients/kasperskyTrans.png",
+      "alt": "Kaspersky"
+    },
+    {
+      "src": "./images/clients/peppaPigTrans.png",
+      "alt": "Peppa Pig"
+    },
+    {
+      "src": "./images/clients/teledeporte.png",
+      "alt": "Teledeporte"
+    },
+    {
+      "src": "./images/clients/vmwareTrans.png",
+      "alt": "Vmware"
+    },
+    {
+      "src": "./images/clients/wacomTrans.png",
+      "alt": "Wacom"
+    }
+  ]
+  
