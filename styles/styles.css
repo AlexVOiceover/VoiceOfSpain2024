@@ -79,10 +79,11 @@ header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between; /* Align the face image to the right */
-	/* flex-wrap: wrap-reverse; */
+	
 	width: 100%; /* Take up the remaining space */
 	z-index: 2;
-	flex-wrap: wrap;
+	align-items: flex-end;
+
 }
 
 .face-image {
@@ -93,7 +94,7 @@ header {
 	height: auto; /* Maintain aspect ratio */
 	padding-right: 2vw;
 	filter: drop-shadow(3px -3px 6px rgba(0, 0, 0, 0.8)); /* Example shadow */
-	align-self: last baseline;
+	align-self: flex-end;
 }
 
 nav {
@@ -589,4 +590,10 @@ a {
 	.grecaptcha-badge {
 		visibility: hidden;
 	}
+}
+@media  (max-width: 470px) {
+.branding {
+/* Align the face image to the right */
+	flex-wrap: wrap-reverse;
+}
 }
