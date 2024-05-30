@@ -82,12 +82,13 @@ header {
 	/* flex-wrap: wrap-reverse; */
 	width: 100%; /* Take up the remaining space */
 	z-index: 2;
+	flex-wrap: wrap;
 }
 
 .face-image {
 	flex: 1;
 	max-width: 25rem; /* Adjust width as needed */
-	min-width: 16.5rem;
+	min-width: 12.5rem;
 	object-fit: contain; /* Preserve aspect ratio without cropping */
 	height: auto; /* Maintain aspect ratio */
 	padding-right: 2vw;
